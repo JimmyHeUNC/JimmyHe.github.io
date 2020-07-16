@@ -1,0 +1,21 @@
+name: Exploratory Plots
+output_dir: www
+include: '*.html'
+navbar:
+  title: Jimmy He, PhD
+  type: inverse
+  left:
+  - icon: glyphicon-home
+    href: new.html
+  - text: Guiding Principles
+    href: GuidingPrinciples.html
+  - text: Jimmy He RMarkdown Template
+    href: new.html
+output:
+  html_document:
+    include:
+      in_header: ./SiteResources/header.html
+      before_body: ./SiteResources/body.html
+    lib_dir: site_libs
+    self_contained: no
+
